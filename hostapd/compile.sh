@@ -6,4 +6,4 @@ export PKG_CONFIG_DIR=
 export PKG_CONFIG_LIBDIR=${SYSROOT}/usr/lib/pkgconfig:${SYSROOT}/usr/share/pkgconfig
 export PKG_CONFIG_SYSROOT_DIR=${SYSROOT}
 
-make CC=arm-linux-gnueabihf-gcc
+make CC=arm-linux-gnueabihf-gcc clean all
